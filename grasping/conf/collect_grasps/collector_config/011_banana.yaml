@@ -1,0 +1,13 @@
+type: cio
+device: cuda:0
+n_starts: 50
+name: 011_banana
+dataset: YCB
+coarse_to_fine: True
+
+object:
+  name: mesh_sdf
+  primitive_type: mesh_sdf
+  sdf_path: grasping/data/ycb/011_banana/google_16k/sdf.npy
+  mesh_path: grasping/data/ycb/011_banana/google_16k/textured.obj
+  rescale: 0.2

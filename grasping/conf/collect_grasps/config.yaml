@@ -1,0 +1,6 @@
+defaults:
+  - collector_config: 011_banana-cio
+
+render_initial: True
+render_final: True
+render_all: True
